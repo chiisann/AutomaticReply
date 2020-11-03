@@ -1,22 +1,28 @@
 AutomaticReply
 ==================
-You can automatically reply to many replies at once by specify tweet id.
+You can automatically reply to many replies at once by specifing tweet id.
+This program is effective for person who have many followers on Twitter.
 
 ## Description
-You can reply to specified id tweet.
+### Authentication
+line 9 ~ line 18 : to authenticate TwitterAPI
+
+### mentionStatus(tweet_id)
+To check whether each mentioned tweet id in latest 30 ones is same as the original tweet id which you have many replies.
+
+### hasNotReply(status)
+To check if each tweet from othes has NOT reply from me.
+
+### textGenerate()
+To generate randomized reply text.
+
+### getFollow()
+To get follow list.
 
 
-
-- *id*
-- *created time*
-- *text*
-- *the number of favorite*
-- *the number of retweet*
-
-And you can see the table in the specified file with *.csv*.
 
 ## Usage
-If you write down your own Twitter API key on the 'x' below in twitter_api.py and run AutomaticReply.py, you can input tweet id that you want to reply.
+If you write down your own Twitter API key on the 'x' below in *twitter_api.py* and run *AutomaticReply.py*, you can input tweet id that you have many replies to reply.
 ```python
 #Twitter API key
 consumer_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
