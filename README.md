@@ -17,8 +17,14 @@ To check if each tweet from othes has NOT reply from me.
 To generate randomized reply text.
 
 ### getFollow()
-To get follow list.
+To get my own follow list.
 
+### isFollow(status, friends_ids)
+Get the original person from tweet status and check if this tweet is from my follow list.
+
+### reply(tweet_id)
+Get my follow list, and automatiacally reply generated text if reply is not from follow list.
+Display tweets from people who followed by me but not replied yet.
 
 
 ## Usage
