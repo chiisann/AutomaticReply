@@ -1,6 +1,6 @@
 AutomaticReply
 ==================
-Twitterでいっぱいリプが来た時にまとめて返せるやつ
+Twitterでいっぱいリプが来た時にまとめて返せるやつ  
 You can automatically reply to many replies at once by specifing tweet id.  
 This program is effective for person who have many followers on Twitter.
 
