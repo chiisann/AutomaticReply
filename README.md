@@ -1,5 +1,6 @@
 AutomaticReply
 ==================
+Twitterでいっぱいリプが来た時にまとめて返せるやつ
 You can automatically reply to many replies at once by specifing tweet id.  
 This program is effective for person who have many followers on Twitter.
 
@@ -41,7 +42,7 @@ access_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 access_token_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 ```
 
-In default, this program automatically generates reply text at `textGenerate()` (line 64), but ofcource you can specify reply text. (By changing `textGenerate()` at line 113)
+In default, this program automatically generates reply text at `textGenerate()` (line 64), but of cource you can specify reply text. (By changing `textGenerate()` at line 113)
 
 ## Note
 It rans very slow, so I need to improve this program.  
